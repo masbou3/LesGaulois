@@ -29,10 +29,18 @@ public class Gaulois {
 
 	@Override
 	public String toString() {
-		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" + effetPotion + "]";
+		// return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" +
+		// effetPotion + "]";
+		return getNom();
 	}
 
 	public static void main(String[] args) {
+		Gaulois asterix = new Gaulois("Astérix", 8);
+		System.out.println();
+	}
+
+	public void boirePotion(Integer forcePotion) {
 
 	}
+
 }
